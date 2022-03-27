@@ -1,0 +1,37 @@
+{
+  "test_data": [
+    [
+      {
+        "accesstoken": "f290306e-2fa3-429b-b516-8f967bc8ce91",
+        "title": "bbccdd3",
+        "tab": "ask",
+        "content": "ddddd3"},
+      401,
+      "错误的accessToken"],
+    [
+      {
+        "accesstoken": "f290306e-2fa3-429b-b516-8f967bc8ce93",
+        "title": "",
+        "tab": "ask",
+        "content": "ddddd"},
+        400,
+        "标题不能为空"],
+    [
+        {
+          "accesstoken": "f290306e-2fa3-429b-b516-8f967bc8ce93",
+          "title": "bbccdd",
+          "tab": "",
+          "content": "ask"},
+        400,
+        "必须选择一个版块"],
+    [
+        {
+          "accesstoken": "f290306e-2fa3-429b-b516-8f967bc8ce93",
+          "title": "bbccdd",
+          "tab": "ask",
+          "content": ""},
+        400,
+        "内容不可为空"]
+  ]
+}
+
